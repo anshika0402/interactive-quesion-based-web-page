@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Questions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="question-container" class="container">
+    <div class="card" id="question-1">
+      <h2>Question 1</h2>
+      <p>What is your name?</p>
+      <input type="text" id="answer-1">
+      <button onclick="nextQuestion(1)">Next</button>
+    </div>
+    <div class="card" id="question-2">
+      <h2>Question 2</h2>
+      <p>How old are you?</p>
+      <input type="text" id="answer-2">
+      <button onclick="nextQuestion(2)">Next</button>
+    </div>
+    <div class="card" id="question-3">
+      <h2>Question 3</h2>
+      <p>What is your favorite color?</p>
+      <input type="text" id="answer-3">
+      <button onclick="nextQuestion(3)">Next</button>
+    </div>
+  </div>
+  <div id="title-screen" class="container">
+    <h1>Welcome to the Title Screen!</h1>
+    <p>Thank you for answering the questions.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
